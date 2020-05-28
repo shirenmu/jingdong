@@ -1,0 +1,88 @@
+[
+  {
+    "imgSrc": "../images/detail/philips01.jpg",
+    "price": "315.00",
+    "info": "飞利浦（PHILIPS） 电动剃须刀S5050三刀头 全身水洗 带修剪器",
+    "type": "S5050",
+    "store":"doggy_STORE"
+  },
+  {
+    "imgSrc": "../images/detail/philips02.jpg",
+    "price": "315.00",
+    "info": "飞利浦（Philips）S5420 电动剃须刀 男士三刀头电动剃须刀 带修剪器",
+    "type": "S5420",
+    "store":"doggy_STORE"
+  },
+  {
+    "imgSrc": "../images/detail/philips03.jpg",
+    "price": "625.00",
+    "info": "飞利浦（PHILIPS）电动剃须刀 男士刮胡刀 三刀头 1小时快充 S5340/06",
+    "type": "S5340",
+    "store":"doggy_STORE"
+  },
+  {
+    "imgSrc": "../images/detail/philips04.jpg",
+    "price": "738.00",
+    "info": "飞利浦（PHILIPS）S5572/10 三刀头干湿两用 男士电动剃须刀 刮胡刀（带清洁中心",
+    "type": "S5572",
+    "store":"doggy_STORE"
+  },
+  {
+    "imgSrc": "../images/detail/philips05.jpg",
+    "price": "735.00",
+    "info": "飞利浦（PHILIPS） 电动剃须刀S7310 荷兰进口胡须刀刮胡刀",
+    "type": "S7310",
+    "store":"doggy_STORE"
+  },
+  {
+    "imgSrc": "../images/detail/philips06.jpg",
+    "price": "825.00",
+    "info": "飞利浦（Philips）S7510/41电动剃须刀 5向浮动刀头",
+    "type": "S7510",
+    "store":"doggy_STORE"
+  },
+  {
+    "imgSrc": "../images/detail/philips07.jpg",
+    "price": "1395.00",
+    "info": "飞利浦（PHILIPS）电动剃须刀 多功能理容 全身水洗 刮胡刀（带智能清洁器）1小时快充 S7720/31",
+    "type": "S7720",
+    "store":"doggy_STORE"
+  },
+  {
+    "imgSrc": "../images/detail/philips08.jpg",
+    "price": "1028.00",
+    "info": "飞利浦（PHILIPS） S9111/12 充电式男士电动剃须刀 旋转式三刀头胡须刀",
+    "type": "S9111",
+    "store":"doggy_STORE"
+  },
+  {
+    "imgSrc": "../images/detail/philips09.jpg",
+    "price": "1695.00",
+    "info": "飞利浦（PHILIPS）S9551/41电动剃须刀 8向灵活三刀头动态贴面 刮胡刀",
+    "type": "S9551",
+    "store":"doggy_STORE"
+  },
+  {
+    "imgSrc": "../images/detail/philips08.jpg",
+    "price": "1028.00",
+    "info": "飞利浦（PHILIPS） S9111/12 充电式男士电动剃须刀 旋转式三刀头胡须刀",
+    "type": "S9111",
+    "store":"doggy_STORE"
+  },
+  {
+    "imgSrc": "../images/detail/philips09.jpg",
+    "price": "1695.00",
+    "info": "飞利浦（PHILIPS）S9551/41电动剃须刀 8向灵活三刀头动态贴面 刮胡刀",
+    "type": "S9551",
+    "store":"doggy_STORE"
+  },
+  {
+    "imgSrc": "../images/detail/philips05.jpg",
+    "price": "735.00",
+    "info": "飞利浦（PHILIPS） 电动剃须刀S7310 荷兰进口胡须刀刮胡刀",
+    "type": "S7310",
+    "store":"doggy_STORE"
+  }
+
+
+]

@@ -1,0 +1,736 @@
+
+/*———————————————————————————————header部分 start————————————————————————————————————*/
+header {
+    height: 80px;
+    background-color: #131315;
+    /*display:none;*/
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: hsla(0, 0%, 100%, .2);
+    left:1320px;
+    top:5px;
+    font-size:20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+/*————————————————————————————————header部分 end——————————————————————————————————————*/
+
+
+
+
+
+/*————————————————————————————首页中间部分 start————————————————————————————————————————*/
+
+.grid { /* 格子高度480px  */
+    height: 480px;
+    position: relative;
+}
+
+.grid_col1 { /*  格子中的第一列 ———————————————————————————————————————————————————————— */
+    width: 190px;
+    height: 100%;
+    background: #fefefe;
+    margin-right: 10px;
+}
+
+.grid_menu { /*  ul  */
+    padding: 6px 0;
+    height: 468px; /*  或 height:480px; box_sizing:border-box; */
+}
+
+.grid_menu_item { /*  li  */
+    height: 26px;
+    line-height: 26px;
+    padding-left: 18px; /*  li的高度、行高和内边距  */
+    transition: background .2s;
+}
+
+.grid_menu_item:hover {
+    background: #ececec; /*  鼠标经过li的时候底色改变  */
+}
+
+.grid_col1 a {
+    font-size: 14px;
+    color: #626262;
+}
+
+.grid_col1 a:hover {
+    color: #e33333;
+}
+
+.grid_col1 span { /*  分隔斜杠  */
+    padding: 0 2px;
+    font-size: 12px;
+    color: #626262;
+    margin: 0 -4px; /*  由于span在换行时会产生边距，所以手动_4px，抵消换行产生的边距  */
+}
+
+
+.grid_menu .grid_menu_item img{
+    width: 1000px;
+    height: 480px;
+    position: absolute;
+    top: 0;
+    left: 190px;
+    z-index: 1000;
+    box-shadow: 3px 1px 3px  rgb(228, 228, 228);
+    display: none;
+}
+
+
+.grid_col2 { /*  格子中的第二列  ————————————————————————————————————————————————————————————*/
+    width: 590px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.grid_focus_main {
+    width: 100%;
+    height: 470px;
+    margin-top: 10px;
+    overflow: hidden;
+    /*background: url("../images/slider_list_0.jpg"); !*  临时占位，后期用js实现  *!*/
+    position: relative;
+}
+
+.slider_list {
+    width: 590px;
+    height: 470px;
+}
+.slider_list a {
+    width: 590px;
+    height: 470px;
+    position: absolute
+}
+
+.focus_arrow_l,
+.focus_arrow_r { /*  统一定义样式  */
+    width: 24px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%); /* 移动距离等于自身一半大小 */
+    background-color: rgba(0, 0, 0, .2);
+    color: hsla(0, 0%, 100%, .4);
+    font-size: 16px;
+    transition: background-color .2s;
+    z-index: 1;
+}
+
+.focus_arrow_r { /*  利用层叠性覆盖掉  */
+    left: 100%;
+    transform: translate(-100%, -50%);
+}
+
+.focus_arrow_l:hover,
+.focus_arrow_r:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+
+.circle { /*  小圆点  ——————————————    这部分需要使用js完善  */
+    width: 152px;
+    height: 18px;
+    /*background-color: #999;*/
+    font-size: 0;
+    text-align: center;
+    left: 46px;
+    bottom: 20px;
+    position: absolute;
+}
+
+.circle i {
+    position: relative;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right: 1px;
+    transition: background .2s;
+}
+
+.circle i span { /*  给i 添加span */
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid hsla(0, 0%, 100%, .4);
+    transition: all .2s ease;
+}
+
+.current {  /*    i    */
+    background-color: hsla(0, 0%, 100%, .2);
+}
+
+.circle i:hover {
+    background-color: hsla(0, 0%, 100%, .2); /*  鼠标经过i时，i颜色改变  */
+}
+
+.bg {
+    background-color: #fff;
+}
+
+
+/*  ——————————————————————后期使用js完善——————————————————————————  */
+
+
+.grid_col3 { /*  格子中的第三列  ——————————————————————————————————————————————————————————————*/
+    width: 190px;
+    height: 100%;
+}
+
+.rec_inner { /*  包裹a的外层盒子 */
+    width: 190px;
+    margin-top: 10px;
+
+}
+
+.rec_inner a {
+    width: 190px;
+    height: 150px;
+    margin-top: 10px;
+    display: block;
+    transition: background 0.2s linear, opacity 0.2s linear;
+}
+
+.rec_inner a img {
+    width: 100%;
+    height: 100%;
+}
+
+.rec_inner a:hover { /*  鼠标经过a时 透明度改变  */
+    opacity: .8;
+}
+
+
+.grid_col4 { /*  格子中的第四列  ——————————————————————————————————————————————————————————————————*/
+    width: 190px;
+    height: 100%;
+}
+
+/* ————————————————用户模块  ————————————————*/
+.col4_user {
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    background: #fff;
+}
+
+.user_inner {      /*  用户内容盒子  */
+    position:relative;
+    padding-top: 62px;
+    height: 78px;
+}
+
+.user_avatar {    /*  用户头像盒子  */
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 50%;
+    top: -10px;
+    transform: translateX(-50%);
+}
+.user_avatar_lk {   /*  用户头像 a链接 */
+    display: block;  /*  转换成块级元素  */
+    width: 55px;
+    height: 55px;
+    border: 5px solid #e3e1df;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 3px 6px 25px #c3c3c3;  /*盒子阴影：水平 垂直 模糊距离 颜色*/
+}
+
+.user_avatar_lk img {   /*  用户头像图片  */
+    width: 100%;
+    height: 100%;
+}
+
+.user_show {  /*  用户介绍  */
+    padding: 0 10px;
+}
+
+.user_show p {
+    line-height: 20px;
+    text-align: center;
+    color: #888;
+    font-size: 12px;
+}
+
+.user_login,  /*  用户 登入/注册 入口  */
+.user_reg {
+    padding: 0 2px;
+    color: #666;
+}
+
+.user_profit {  /*  用户福利部分  */
+    height: 25px;
+    margin-top: 10px;
+    text-align: center;
+    /*background-color: pink;*/
+}
+.user_profit_lk {   /* 新人福利超链接  */
+    display: inline-block;
+    width: 70px;
+    height: 25px;
+    margin: 0 5px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 13px;
+    transition: all .3s;
+    color: #e43f3b;
+    box-shadow: 1px 4px 6px rgba(45,45,45,.15);
+    /*  盒子阴影：水平 垂直 模糊距离 颜色  */
+}
+
+.user_profit_plus {  /*  plus会员超链接  */
+    background: #363634;
+    color: #e5d790;
+    box-shadow: 6px 8px 20px rgba(45,45,45,.15);
+}
+
+.user_profit_lk:hover {  /*  鼠标经过时  */
+    background-color: #e01222;
+    color: #fff;
+}
+
+
+
+
+
+
+/* ————————————————————资讯部分  ————————————————————————————————————*/
+.col4_news {
+    width: 100%;
+    height: 130px;
+    background: #fff;
+}
+
+.info_hd {   /*  资讯头部  */
+    width: 100%;
+    height: 26px;
+}
+
+.info_tit {   /*  京东快报标题  */
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 15px;
+    color: #1e1e1e;
+}
+
+.info_more {  /*  更多资讯  */
+    float: right;
+    margin-right: 15px;
+}
+
+.info_more:hover {   /*  当鼠标经过更多时  */
+    color: #666;
+}
+
+.info_list {    /*  资讯列表 ul  */
+    width: 160px;
+    height: 88px;
+    margin: 0 15px;
+    padding-top: 8px;
+}
+.info_list a {
+    color: #666;
+}
+
+.info_list a:hover {
+    color: #e33333;
+}
+
+.info_items0,
+.info_items1,
+.info_items2,
+.info_items3 {   /*  资讯列表 li  */
+    line-height: 21px;
+    white-space: nowrap;   /*  强制文字一行显示  */
+    overflow: hidden;      /*  溢出元素隐藏  */
+    text-overflow: ellipsis;  /*  超出部分省略号代替 必须要有前两个属性 否则不生效 */
+    color: #999;
+}
+
+.info_tag {      /*  资讯小标题 span  */
+    background-color: #e47f7f;
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    height: 16px;
+    width: 35px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: 0;
+    border-radius: 2px;
+    color: #fff;
+    margin-right: 6px;
+}
+.info_items0 .info_tag {   /*  层叠  */
+    background-color: #90b0c6;
+}
+
+.info_items1 .info_tag {   /*  层叠  */
+    background-color: #e0b95a;
+}
+
+
+
+/*—————————————————————— 服务模块  ————————————————————————————————————————*/
+.col4_service {
+    width: 100%;
+    height: 190px;
+    background: #fff;
+    position: relative;
+    text-align: center;
+}
+
+.col4_service:after {     /*  分割线  */
+    content: "";
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 160px;
+    left: 15px;
+    height: 1px;
+    background: #ebeaea;
+    z-index: 1;
+}
+
+.service_entry {         /*  服务部分盒子  */
+    padding: 18px 11px 11px;
+}
+
+.service_list {        /*  服务 ul盒子  */
+    height: 165px;
+}
+
+.service_list li {    /*  li  */
+    float: left;
+    width: 42px;
+    height: 55px;
+}
+
+.service_list li a {    /*  超链接  */
+    display: block;
+    width: 42px;
+    height: 57px;
+    padding-top: 6px;
+    color: #bea68d;
+}
+
+
+.service_list li i {   /*  超链接中的图标部分  */
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 4px auto 0;
+}
+
+.service_list li span {   /*  超链接中的文字部分  */
+    display: block;
+    height: 25px;
+    line-height: 25px;
+}
+
+
+/*  给服务模块 添加文字图标 ————————————————————————————————————————————————*/
+
+
+.service_list li i::before {
+    font-family: 'icomoon';
+    font-style: normal;
+    content: '\e959';
+    font-size: 16px;
+}
+.service_list li:nth-child(2) a i::before { /* ul 中 第二个li 中的a中的i 添加一个小图标*/
+    content: '\e9af';
+}
+
+.service_list li:nth-child(3) a i::before {
+    content: '\e921';
+ }
+.service_list li:nth-child(4) a i::before {
+    content: '\e916';
+}
+.service_list li:nth-child(5) a i::before {
+    content: '\e903';
+}
+.service_list li:nth-child(6) a i::before {
+    content: '\e90b';
+}
+.service_list li:nth-child(7) a i::before {
+    content: '\e914';
+}
+.service_list li:nth-child(8) a i::before {
+    content: '\e9b1';
+}
+.service_list li:nth-child(9) a i::before {
+    content: '\e9b2';
+}
+.service_list li:nth-child(10) a i::before {
+    content: '\e93e';
+}
+.service_list li:nth-child(11) a i::before {
+    content: '\e93f';
+}
+.service_list li:nth-child(12) a i::before {
+    content: '\e926';
+}
+
+.service_entry .service_list li:hover a{
+    color: #e33333;
+}
+
+
+/*————————————————————————————首页中间部分 end————————————————————————————————————————*/
+
+
+
+
+
+
+/*————————————————————————————首页底部部分 start————————————————————————————————————————*/
+.sk {
+    height: 275px;
+    margin: 30px 0;
+}
+
+
+.sk_hd {    /*  样品箱 头部  */
+    width: 190px;
+    height: 275px;
+    background-color: green;
+    float: left;
+    position: relative;
+}
+.sk_hd img {
+    width: 100%;
+}
+
+.sk_hd .count_down,
+.sk_hd .count_down_2{
+    position: absolute;
+    bottom: 23px;
+    left: 28px;
+    width: 136px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    transition: all .4s
+}
+
+.sk_hd .count_down p{
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+}
+.sk_hd .count_down_2 p{
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+}
+.count_down_line{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    height: 2px;
+    background-color: #e33333;
+    z-index: 1;
+}
+
+
+.sk_bd {   /*  样品箱  身体  */
+    width: 1000px;
+    height: 275px;
+    background-color: #fff;
+    float: left;
+}
+
+.sk_list {  /*  样品箱 列表  */
+    float: left;
+    width: 800px;
+    height: 275px;
+    border-right: 1px solid #f0f0f0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+.sk_list ul {
+    width: 800px;
+    height: 275px;
+}
+.sk_list ul li {
+    float: left;
+    width: 200px;
+    height: 275px;
+}
+
+.sk_list a {
+    display: block;
+    width: 200px;
+    height: 275px;
+    position: relative;
+    text-align: center;
+    color: #666;
+}
+.sk_list_item {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 50%;
+    margin-left: -70px;
+    top: 40px;
+}
+.sk_list_item img {
+    width: 100%;
+    transition: all .4s;
+}
+
+.sk_list a p {
+    position: absolute;
+    top: 190px;
+    left: 0;
+    width: 160px;
+    padding: 0 15px;
+    line-height: 30px;
+    white-space: nowrap;   /*  强制文字一行显示  */
+    overflow: hidden;      /*  溢出元素隐藏  */
+    text-overflow: ellipsis;  /*  超出部分省略号代替 必须要有前两个属性 否则不生效 */
+}
+
+.sk_list a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 275px;
+    background: #f0f0f0;
+}
+
+.sk_item_price {
+    position: absolute;
+    left: 15px;
+    top: 230px;
+    width: 160px;
+    height: 20px;
+    padding:1px;
+    background: #e6382f;
+    line-height: 20px;
+}
+.sk_item_price span:first-child {
+    float: left;
+    width: 80px;
+    height: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.sk_item_price span:last-child {
+    float: left;
+    width: 80px;
+    height: 20px;
+    background: #fff;
+    color: #b7bcb8;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.sk_arrow_l,
+.sk_arrow_r { /*  统一定义样式  */
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 53%;
+    background-color: rgba(0, 0, 0, .2);
+    color: hsla(0, 0%, 100%, .4);
+    font-size: 16px;
+    transition: background-color .2s;
+    z-index: 1;
+}
+
+.sk_arrow_r { /*  利用层叠性覆盖掉  */
+    left: 100%;
+    transform: translateX(-100%);
+}
+
+.sk_arrow_l:hover,
+.sk_arrow_r:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.sk_list a:hover img {
+    opacity: .8;
+}
+
+.sk_list a:hover {
+    color: #e33333;
+}
+
+/*  样品箱 右侧轮播图  ——————————————————————————————————*/
+.sk_chn {
+    float: right;
+    width: 180px;
+    height: 260px;
+    padding: 8px 10px 7px;
+    background-color: #fff;
+}
+
+.sk_right {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.sk_right a {
+    height: 260px;
+    float: left;
+    position: absolute;
+}
+
+
+
+.sk_right a img {
+    width: 180px;
+    height: 260px;
+    float: left;
+}
+
+
+.sk_chn_c {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0;
+    text-align: center;
+    bottom: 16px;
+}
+
+.sk_chn_c i {
+    display: inline-block;
+    background: #c0c0c0;
+    width: 6px;
+    height: 6px;
+    margin: 4px;
+    border-radius: 50%;
+}
+
+

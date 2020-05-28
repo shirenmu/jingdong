@@ -1,0 +1,297 @@
+.sweep_box{
+  width: 1200px;
+  height: 460px;
+  background-color: #fff;
+  margin: 60px auto;
+  text-align: center;
+
+}
+
+.sweep_box p{
+  padding: 20px 0;
+  font-size: 20px
+}
+
+.sweep_box img{
+  display: block;
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+}
+
+.sweep_box a{
+  margin: 20px auto;
+  display: block;
+  width: 120px;
+  height: 38px;
+  background-color: rgb(241, 78, 78);
+  color: #fff;
+  line-height: 38px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.shortCart_r{
+  width: 1190px;
+  height: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  border: 1px solid #222;
+}
+
+
+
+/* 购物车 */
+
+ul,
+input,
+span,
+label,
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+.cart-table-th {
+  height: 40px;
+  border-bottom: 1px solid #777;
+  background-color: #d13535;
+}
+
+
+.shoppingBox {
+  width: 1200px;
+  height: 580px;
+  /* border: 1px solid #777; */
+  margin: 20px auto;
+  background-color: rgba(245, 245, 245, 0.1);
+  border-bottom: 44px solid #d13535;
+}
+
+#checkedAllBox,
+.info {
+  margin-left: 120px;
+  margin-top: 15px;
+  color:#fff;
+  font-weight: 600;
+}
+
+#checkedAllBox {
+  margin-left: 12px;
+}
+
+.cart-table-th label{
+  color:#fff;
+  font-weight: 600;
+}
+
+
+.shop_tab_list {
+  list-style: none;
+  width: 600px;
+  height: 40px;
+  float: right;
+  margin: 0;
+  line-height: 40px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  color:#fff;
+  font-weight: 600;
+
+}
+
+
+.cart-item {
+  height: 120px;
+  width: 1180px;
+  margin: 10px auto;
+  position: relative;
+}
+
+
+.box_border:hover {
+  background-color: rgba(182, 187, 194, 0.3);
+}
+
+.box_border {
+  /* border: 1px solid #777; */
+  box-shadow: 0 0 2px rgb(190, 181, 181);
+  height: 88px;
+  transition: all 0.3s;
+  background-color: #fff;
+}
+
+.store,
+.seller {
+  font-size: 14px;
+  width: 100px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+
+.cart-item .cart-item-check {
+  position: absolute;
+  top: 38px;
+  left: 14px;
+}
+
+.cart-item .cart-img {
+  position: absolute;
+  top: 36px;
+  left: 176px;
+  float: left;
+  cursor: pointer;
+}
+
+.cart-img img {
+  float: left;
+  width: 60px;
+}
+
+.cart-img .title {
+  width: 220px;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 6px;
+  transition: all .3s;
+}
+.cart-img:hover.cart-img .title {
+  color:#129b7d
+}
+
+.cart-img .color,
+.cart-item .bz {
+  width: 220px;
+  margin-left: 90px;
+
+}
+
+.cart-item .operation {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  width: 600px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.operation a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #555;
+  width: 80px;
+  align-items: center;
+  font-weight: 700;
+
+}
+
+.operation .number{
+  width: 140px;
+}
+
+
+.integral {
+  font-weight: 700;
+}
+
+
+/* .number b {
+  padding: 10px;
+} */
+
+.calculation:hover {
+  background-color: rgba(0, 0, 0, 0.555);
+  color: #fff;
+}
+
+
+
+.result {
+  height: 40px;
+  width: 200px;
+  float: right;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 16px
+
+}
+
+
+.delete {
+  width: 50px;
+  text-align: center;
+  border: 1px solid #777;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.4s;
+
+
+
+}
+
+.delete:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.allXx {
+  margin-left: 40px;
+  background-color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 70px;
+  height: 24px;
+  margin-top: 10px;
+}
+
+.allXx:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.calculation{
+  height: 22px;
+  width: 22px;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 20%;
+  text-align: center;
+  transition: all .4s;
+  cursor: pointer;
+  
+}
+
+.cart_tab_warp_body{
+  width: 1200px;
+  height: 540px;
+  overflow: auto;
+}
+
+.num{
+  display: inline-block;
+  width: 50px;
+  height: 22px;
+  text-align: center;
+}
+
+.tao_store{
+  margin-left: 10px;
+  color:rgb(235, 95, 95);
+  cursor: pointer;
+}
+.tao_store:hover{
+  text-decoration: underline;
+}

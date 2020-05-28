@@ -1,0 +1,268 @@
+li{
+  cursor: pointer;
+}
+.brand{
+  height: 160px;
+  width: 100%;
+  border: 1px solid #ddd;
+  color:rgb(33, 91, 179);
+}
+.result{
+  margin: 8px 0;
+}
+
+.brand_name{
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.brand_name li{
+  float: left;
+  line-height: 40px;
+  padding: 0 12px;
+}
+.brand_name li:nth-child(1){
+  padding-right: 60px;
+  background-color: rgb(233, 233, 233);
+  font-weight: 700;
+  color: #444;
+}
+
+.accessories{
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.accessories li{
+  float: left;
+  line-height: 40px;
+  padding: 0 12px;
+}
+.accessories li:nth-child(1){
+  padding-right: 36px;
+  background-color: rgb(233, 233, 233);
+  font-weight: 700;
+  color: #444;
+}
+.design{
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.design li{
+  float: left;
+  line-height: 40px;
+  padding: 0 12px;
+}
+.design li:nth-child(1){
+  padding-right: 60px;
+  background-color: rgb(233, 233, 233);
+  font-weight: 700;
+  color: #444;
+}
+
+.texture{
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.texture li{
+  float: left;
+  line-height: 40px;
+  padding: 0 12px;
+}
+
+.texture li:nth-child(1){
+  padding-right: 60px;
+  background-color: rgb(233, 233, 233);
+  font-weight: 700;
+  color: #444;
+}
+.brand li:hover{
+  color:#444;
+}
+
+/* 品牌选择 end */
+
+.best_shop{
+  width: 100%;
+  overflow: hidden;
+  margin-top: 18px;
+}
+
+.best_shop_left{
+  float: left;
+  width: 170px;
+}
+.best_shop_left ul{
+  width: 100%;
+  height: 100%;
+  padding-top: 4px;
+  background-color: #fff;
+}
+.best_shop_left ul span{
+  font-size: 14px;
+  color:#c92121;
+  margin-left: 14px;
+}
+.best_shop_left ul .bk{
+  font-size: 10px;
+  margin-left: 56px;
+}
+
+.best_shop_item{
+  width: 140px;
+  height: 230px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.best_shop_item img{
+  width: 100%;
+}
+.best_shop_item strong{
+  color:#c92121;
+}
+.best_shop_item p{
+  font-size: 8px;
+  margin-top: 4px;
+}
+.best_shop_item p a{
+  color:rgb(33, 91, 179);
+}
+
+
+.best_shop_right{
+  float: right;
+  width: 1000px;
+}
+.market_data{
+  width: 1000px;
+  height: 30px;
+  background-color: #eee;
+  display: flex;
+}
+.market_data a{
+  text-align: center;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+}
+.market_data a:nth-child(1){
+  color:#fff;
+  background-color: #e33333;
+}
+
+.shop_right_box{
+  width: 1000px;
+  background-color: #fff;
+}
+.best_shop_list{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.best_shop_right_item{
+  width: 220px;
+  height: 340px;
+  margin-top: 30px;
+  transition:all .4s;
+  margin-bottom: 16px;
+}
+.best_shop_right_item img{
+  width: 100%;
+}
+
+.best_shop_right_item strong{
+  font-size: 18px;
+  color: rgb(155, 19, 19);
+  transition:all .3s;
+}
+.best_shop_right_item strong:hover{
+  color: rgb(21, 75, 173);
+}
+
+
+
+.best_shop_right_item .evaluate{
+  margin-top: 4px;
+  color:rgb(28, 192, 221);
+  margin-bottom: 10px;
+}
+
+.best_shop_right_item .evaluate a{
+  color:rgb(33, 91, 179);
+
+}
+.best_shop_right_item  a{
+  color:#c92121;
+}
+.best_shop_right_item:hover img{
+  opacity: .8;
+}
+
+
+.pages_num{
+  width: 280px;
+  height: 30px;
+  margin-top: 60px;
+  margin-left: 500px;
+}
+
+.pages_num li{
+  float: left;
+  line-height: 30px;
+  text-align: center;
+  width: 26px;
+  height: 30px;
+  border: #eee solid 1px;
+  background-color: #fff;
+  color:rgb(33, 91, 179);
+  font-weight: 600;
+  transition:all .3s;
+}
+.pages_num li:hover{
+  background-color: rgb(33, 91, 179);
+  color: #fff;
+}
+
+
+.add_cart:before{
+  font-family: 'icomoon';
+    font-style: normal;
+    content: '\e93a';
+    color: #f10215;
+    font-size: 16px;
+    margin-right: 6px;
+    float: right;
+    margin-right: 20px;
+}
+
+.add_cart:hover{
+  color:#ccc;
+}
+
+.add_cg_tip{
+  width: 500px;
+  height: 100px;
+  background-color: rgba(228, 228, 228, 0.589);
+  position: absolute;
+  top: 500px;
+  left: 400px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 100px;
+  font-weight: 700;
+  display: none;
+}
+
+
+

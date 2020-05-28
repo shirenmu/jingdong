@@ -1,0 +1,59 @@
+
+    [
+      {
+        "imgSrc": "../images/detail/big_img1.jpg",
+        "price": "1512.00",
+        "info": "Crosley黑胶唱机CR8005D 留声机LP唱片机湖蓝色 蓝牙唱机 黑色",
+        "color":  "黑色",
+        "store":"SHIRENMu_STORE"
+      },
+      {
+        "imgSrc": "../images/detail/selective2.jpg",
+        "price": "1512.00",
+        "info": "Crosley黑胶唱机CR8005D 留声机LP唱片机湖蓝色 蓝牙唱机 湖蓝",
+        "color": "湖蓝",
+        "store":"SHIRENMu_STORE"
+      },
+      {
+        "imgSrc": "../images/detail/selective3.jpg",
+        "price": "1980.00",
+        "info": "Crosley黑胶唱机CR8005D 留声机LP唱片机湖蓝色 蓝牙唱机 石灰白",
+        "color": "石灰白",
+        "store":"SHIRENMu_STORE"
+      },
+      {
+        "imgSrc": "../images/detail/selective4.jpg",
+        "price": "1662.00",
+        "info": "Crosley黑胶唱机CR8005D 留声机LP唱片机湖蓝色 蓝牙唱机 Tweed",
+        "color": "TWeeD",
+        "store":"SHIRENMu_STORE"
+      },
+      {
+        "imgSrc": "../images/detail/selective5.jpg",
+        "price": "1802.00",
+        "info": "Crosley黑胶唱机CR8005D 留声机LP唱片机湖蓝色 蓝牙唱机 麻绳布",
+        "color": "麻绳布",
+        "store":"SHIRENMu_STORE"
+      },
+      {
+        "imgSrc": "../images/detail/selective6.jpg",
+        "price": "1512.00",
+        "info": "Crosley黑胶唱机CR8005D 留声机LP唱片机湖蓝色 蓝牙唱机 深蓝",
+        "color": "深蓝",
+        "store":"SHIRENMu_STORE"
+      },
+      {
+        "imgSrc": "../images/detail/selective7.jpg",
+        "price": "1802.00",
+        "info": "Crosley黑胶唱机CR8005D 留声机LP唱片机湖蓝色 蓝牙唱机 牛子布",
+        "color": "牛子布",
+        "store":"SHIRENMu_STORE"
+      },
+      {
+        "imgSrc": "../images/detail/selective8.jpg",
+        "price": "1624.00",
+        "info": "Crosley黑胶唱机CR8005D 留声机LP唱片机湖蓝色 蓝牙唱机 橘色",
+        "color": "橘色",
+        "store":"SHIRENMu_STORE"
+      }
+    ]
